@@ -1,6 +1,6 @@
 import { HttpPostClient } from 'data/protocols/http/http-post-client'
 
-export class HttpPostClientSpy implements HttpPostClient {
+export class HttpPostClientMock implements HttpPostClient {
   url?: string
 
   async post (url: string): Promise<void> {
