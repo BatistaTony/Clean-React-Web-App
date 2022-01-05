@@ -5,7 +5,7 @@ export class HttpPostClientMock implements HttpPostClient {
   url?: string
   body?: Object
   response: HttpResponseType = {
-    statusCode: HttpResponseStatusCode.noContent
+    statusCode: HttpResponseStatusCode.ok
   }
 
   async post (params: ParamsPosttType): Promise<HttpResponseType> {
