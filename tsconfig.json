@@ -14,6 +14,9 @@
     "isolatedModules": false,
     "jsx": "react",
     "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
     "rootDir": "src",
     "incremental": true,
     "allowSyntheticDefaultImports": true
